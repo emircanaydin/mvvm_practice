@@ -15,6 +15,9 @@
 		904FC48F26FA93F600B27469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904FC48D26FA93F600B27469 /* LaunchScreen.storyboard */; };
 		904FC49A26FA93F700B27469 /* mvvm_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC49926FA93F700B27469 /* mvvm_practiceTests.swift */; };
 		904FC4A526FA93F700B27469 /* mvvm_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC4A426FA93F700B27469 /* mvvm_practiceUITests.swift */; };
+		904FC4BC26FA98E000B27469 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC4BB26FA98E000B27469 /* Models.swift */; };
+		904FC4C126FA991700B27469 /* PersonFollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC4C026FA991700B27469 /* PersonFollowingTableViewCell.swift */; };
+		904FC4C626FA9AC100B27469 /* PersonFollowingTableViewCelllViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC4C526FA9AC100B27469 /* PersonFollowingTableViewCelllViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		904FC4A026FA93F700B27469 /* mvvm_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvvm_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		904FC4A426FA93F700B27469 /* mvvm_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_practiceUITests.swift; sourceTree = "<group>"; };
 		904FC4A626FA93F700B27469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904FC4BB26FA98E000B27469 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		904FC4C026FA991700B27469 /* PersonFollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFollowingTableViewCell.swift; sourceTree = "<group>"; };
+		904FC4C526FA9AC100B27469 /* PersonFollowingTableViewCelllViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFollowingTableViewCelllViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		904FC48126FA93F100B27469 /* mvvm_practice */ = {
 			isa = PBXGroup;
 			children = (
+				904FC4C026FA991700B27469 /* PersonFollowingTableViewCell.swift */,
+				904FC4C526FA9AC100B27469 /* PersonFollowingTableViewCelllViewModel.swift */,
+				904FC4BB26FA98E000B27469 /* Models.swift */,
 				904FC48226FA93F100B27469 /* AppDelegate.swift */,
 				904FC48426FA93F100B27469 /* SceneDelegate.swift */,
 				904FC48626FA93F100B27469 /* ViewController.swift */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				904FC48726FA93F100B27469 /* ViewController.swift in Sources */,
+				904FC4C126FA991700B27469 /* PersonFollowingTableViewCell.swift in Sources */,
+				904FC4C626FA9AC100B27469 /* PersonFollowingTableViewCelllViewModel.swift in Sources */,
 				904FC48326FA93F100B27469 /* AppDelegate.swift in Sources */,
 				904FC48526FA93F100B27469 /* SceneDelegate.swift in Sources */,
+				904FC4BC26FA98E000B27469 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K837NJXMYB;
 				INFOPLIST_FILE = mvvm_practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K837NJXMYB;
 				INFOPLIST_FILE = mvvm_practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
